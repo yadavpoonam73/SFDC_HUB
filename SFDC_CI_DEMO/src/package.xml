@@ -10,6 +10,7 @@
     </types>
     <types>
         <members>Event_Manager__c</members>
+        <members>Fund_Manager__c</members>
         <members>Junction_Object__c</members>
         <members>Normal_User__c</members>
         <name>CustomObject</name>
