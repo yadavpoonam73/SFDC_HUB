@@ -1,0 +1,150 @@
+<apex:page >
+    <table border="1px">
+        <tr>
+            <td   colspan="9"   height="90" width="600" align="center"><b>CP Letter Head </b><br></br>Address Line 1<br></br>Address Line 2<br></br>Tel-011-000000,Fax-011-000000<br></br>Email:accounts@comanysite.in<br></br>Website:www.companysite.in
+            </td>
+         </tr>
+          <tr > 
+              <td   colspan="9"  height="100" width="600" align="center" >
+                  <table border="1px" style="border-collapse:collapse; border:1px solid;" width="100%">
+                      <tr><td align="center" style="font-weight: bold;">INVOICE</td>
+                      </tr>
+                      <tr><td align="left">INVOICE No xxxx</td>
+                      </tr>
+                      <tr><td align="left">DATE:xx/xx/xxxx</td>
+                      </tr>
+                       <tr>
+                            <td height="20" ></td>
+                      </tr>
+
+                      <tr><td align="left" ><b>Construction Company Name</b></td>
+                      </tr>
+                      <tr><td align="left">Address Line 1</td>
+                      </tr>
+                      <tr><td align="left">Address Line 2</td>
+                      </tr>
+                      <tr><td align="left">REAP ID:</td>
+                      </tr>
+                 </table>
+             </td>                
+        </tr>
+        <tr> 
+              <td    colspan="9"   height="200">  
+                  <table  border="1px" width="100%">
+                      <tr>
+                          <td width="10%">S No.</td>
+                          <td width="50%">Particulars</td>
+                          <td width="15%">Tax Rate</td>
+                          <td width="40%">Amount</td>
+                       </tr>
+                        <tr>
+                           <td height="10" colspan="4"></td>
+                       </tr>
+
+                       
+                       <tr>
+                           <td> 1.</td>
+                           <td>Description of service provided</td>
+                           <td></td>
+                           <td></td>
+                       </tr>
+                       <tr>
+                           <td height="10" colspan="4"></td>
+                       </tr>
+
+                       <tr>
+                           <td></td>
+                           <td>Customer Name:-</td>
+                           <td></td>
+                           <td></td>
+                       </tr>
+                         <tr>
+                           <td></td>
+                           <td>Project Name:-</td>
+                           <td></td>
+                           <td></td>
+                       </tr>
+
+                        <tr>
+                           <td></td>
+                           <td>Cluster Name:-</td>
+                           <td></td>
+                           <td></td>
+                       </tr>
+                        <tr>
+                           <td></td>
+                           <td>Wing:-</td>
+                           <td></td>
+                           <td></td>
+                       </tr>
+                        <tr>
+                           <td></td>
+                           <td>Flat No:-</td>
+                           <td></td>
+                           <td></td>
+                       </tr>
+                        <tr>
+                            <td height="20" colspan="4" ></td>
+                      </tr>
+
+                       <tr>
+                           <td></td>
+                           <td>Flat Cost:- xxxxx.xx</td>
+                           <td></td>
+                           <td align="center">xxxx.xx</td>
+                       </tr>
+                       <tr>
+                           <td></td>
+                           <td>Brokerage Amount:-</td>
+                           <td></td>
+                           <td></td>
+                       </tr>
+                       <tr>
+                            <td height="20" colspan="4" ></td>
+                      </tr>
+
+                       <tr>
+                           <td></td>
+                           <td>TOTAL</td>
+                           <td></td>
+                           <td align="center">xxxxxx.xx</td>
+                       </tr>
+            </table>
+              </td> 
+        </tr>
+         <tr>
+              <td>Amount in words:</td>
+         </tr>
+
+        <tr>
+            <td align="right">FOR COMPANY NAME</td>
+        </tr>
+         <tr>
+            <td width="100%"> <b>E and OE</b>
+            
+              <table border="1" width="100%">
+                  <tr>
+                      <td> 1. Payment terms here</td>
+                      <td align="right"> Authorised Signatory</td>
+                  </tr>
+                  <tr>
+                      <td> 2. Cheque favouring to be mentioned here</td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td> 3. Any other terms if required</td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td height="40" colspan="4" ></td>
+                      <td></td>
+                  </tr>
+                  <tr>
+                      <td> SERVICE TAX REGISTRATION No:&nbsp;&nbsp;&nbsp;&nbsp;ST REG NO HERE &nbsp;&nbsp;&nbsp;&nbsp;PAN NO:&nbsp;&nbsp;PAN NO HERE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                      <td></td>
+                  </tr> 
+              </table>                
+          </td>   
+         </tr>
+       </table>
+</apex:page>
